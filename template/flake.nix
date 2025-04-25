@@ -39,6 +39,8 @@
             # formatting
             treefmt
             nixfmt-rfc-style
+            shfmt
+            shellcheck
           ];
 
           shellHook = ''
